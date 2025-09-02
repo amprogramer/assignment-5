@@ -1,0 +1,164 @@
+@media all and (width < 1200px) {
+  .nav .nav-links ul li a {
+    display: none;
+  }
+
+  .nav .menubtn {
+    display: block;
+  }
+
+}
+
+/* Extra small devices (<= 575.98px) */
+@media all and (width <=575.98px) {
+  /* Styles for phones */
+}
+
+/* Small devices (>= 576px and <= 767.98px) */
+@media all and (576px <=width <=767.98px) {
+  /* Styles for large phones & small tablets */
+}
+
+/* Medium devices (>= 768px and <= 991.98px) */
+@media all and (768px <=width <=991.98px) {
+
+  /* Styles for tablets */
+  .home .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 120px;
+    gap: 50px;
+  }
+
+  .home .home-content button {
+    border-radius: 999999px;
+
+  }
+
+  .home .home-content .home-links {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .home-content h1 {
+    width: 60%;
+  }
+
+  .chefs .chefs-cards .chef-card {
+    width: 47%;
+  }
+
+  .chefs .chefs-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: start;
+  }
+
+  .container {
+    width: 70%;
+  }
+
+  .home .home-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .home-img {
+    width: 100%;
+  }
+
+  .home {
+    height: auto;
+  }
+
+  .mansory {
+    grid-template-areas:
+      "pizza1 pizza1 pizza1 beef beef beef"
+      "pizza1 pizza1 pizza1 beef beef beef"
+      "burger burger burger beef beef beef"
+      "burger burger burger beef beef beef"
+      "pizza2 pizza2 pizza2 beef beef beef"
+      "pizza2 pizza2 pizza2 fried-chicken fried-chicken fried-chicken"
+      "pizza2 pizza2 pizza2 fried-chicken fried-chicken fried-chicken"
+      "pizza2 pizza2 pizza2 kebab kebab kebab"
+      "pizza2 pizza2 pizza2 kebab kebab kebab"
+      "pie pie pie kebab kebab kebab"
+      "pie pie pie kebab kebab kebab"
+      "pie pie pie . . ."
+      "pie pie pie . . ."
+    ;
+  }
+
+  .mansory .gallery-overlay {
+    padding: 25px;
+  }
+
+  iframe {
+    aspect-ratio: 11/5;
+  }
+
+  .contact-info {
+    width: 48.9%;
+  }
+
+   .address {
+    width: 70px;
+    height: 55px;
+  }
+
+  .seperate1 {
+    width: 100%;
+  }
+
+  .seperate2 {
+    width: 100%;
+  }
+
+  .group2 {
+    flex-flow: column wrap;
+    gap: 15px;
+  }
+
+  .footer .footer-content {
+    flex-flow: row wrap;
+  }
+
+  .footer .footer-content .left {
+    width: 48%;
+    order: 1;
+  }
+
+  .footer .footer-content .right {
+    width: 48%;
+    order: 2;
+  }
+
+  .footer .footer-content .middle {
+    width: 100%;
+    order: 3;
+  }
+
+  .footer {
+    background-size: cover;
+  }
+}
+
+
+/* Large devices (>= 992px and <= 1199.98px) */
+@media all and (992px <=width <=1199.98px) {
+  /* Styles for small desktops */
+}
+
+/* Extra large devices (>= 1200px and <= 1399.98px) */
+@media all and (1200px <=width <=1399.98px) {
+  /* Styles for desktops */
+}
+
+/* Extra extra large devices (>= 1400px) */
+@media all and (width >=1400px) {
+  /* Styles for large desktops */
+}
