@@ -9,20 +9,300 @@
 
 }
 
-/* Extra small devices (<= 575.98px) */
 @media all and (width <=575.98px) {
-  /* Styles for phones */
+  .home .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 120px;
+    gap: 50px;
+  }
+
+  .home .home-content button {
+    border-radius: 999999px;
+
+  }
+
+  .home .home-content .home-links {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .home-content h1 {
+    width: 100%;
+  }
+
+  .home .home-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .home-content .home-links {
+
+    flex-flow: column;
+  }
+
+  .home .home-img {
+    width: 100%;
+  }
+
+  .home {
+    height: auto;
+  }
+
+  .container {
+    width: 90%;
+    margin-inline: auto;
+
+  }
+
+  .mansory {
+    grid-template-areas:
+      "pizza1 pizza1 pizza1 pizza1 pizza1 pizza1"
+      "pizza1 pizza1 pizza1 pizza1 pizza1 pizza1"
+      "burger burger burger burger burger burger"
+      "burger burger burger burger burger burger"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pie pie pie pie pie pie"
+      "pie pie pie pie pie pie"
+      "pie pie pie pie pie pie"
+      "pie pie pie pie pie pie"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken"
+      "fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken"
+      "kebab kebab kebab kebab kebab kebab"
+      "kebab kebab kebab kebab kebab kebab"
+      "kebab kebab kebab kebab kebab kebab"
+      "kebab kebab kebab kebab kebab kebab"
+    ;
+  }
+
+  .chefs .chefs-cards .chef-card {
+    width: 100%;
+  }
+
+  .chefs .chefs-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: start;
+  }
+
+  iframe {
+    aspect-ratio: 3/3;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+
+  .address {
+    width: 50px;
+    height: 50px;
+  }
+
+  .seperate1 {
+    width: 100%;
+  }
+
+  .seperate2 {
+    width: 100%;
+  }
+
+  .group2 {
+    flex-flow: column wrap;
+    gap: 15px;
+  }
+
+  .footer .footer-content {
+    flex-flow: row wrap;
+  }
+
+  .footer .footer-content .left {
+    width: 100%;
+    order: 1;
+  }
+
+  .footer .footer-content .right {
+    width: 100%;
+    order: 3;
+  }
+
+  .footer .footer-content .middle {
+    width: 100%;
+    order: 2;
+  }
+
+  .footer .footer-content .middle .footer-links ul li {
+
+    width: 48%;
+  }
+
+  .footer .footer-content .middle .subscribe {
+
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footer .footer-content .middle .subscribe button {
+
+    width: 100%;
+    justify-content: center;
+    padding-block: 10px;
+  }
+
+  .footer {
+    background-size: cover;
+  }
 }
 
-/* Small devices (>= 576px and <= 767.98px) */
 @media all and (576px <=width <=767.98px) {
-  /* Styles for large phones & small tablets */
+
+  .home .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 120px;
+    gap: 50px;
+  }
+
+  .home .home-content button {
+    border-radius: 999999px;
+
+  }
+
+  .home .home-content .home-links {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .home-content h1 {
+    width: 100%;
+  }
+
+  .home .home-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .home-img {
+    width: 100%;
+  }
+
+  .home {
+    height: auto;
+  }
+
+  .container {
+    width: 90%;
+    margin-inline: auto;
+
+  }
+
+  .mansory {
+    grid-template-areas:
+      "pizza1 pizza1 pizza1 pizza1 pizza1 pizza1"
+      "pizza1 pizza1 pizza1 pizza1 pizza1 pizza1"
+      "burger burger burger burger burger burger"
+      "burger burger burger burger burger burger"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pizza2 pizza2 pizza2 pizza2 pizza2 pizza2"
+      "pie pie pie pie pie pie"
+      "pie pie pie pie pie pie"
+      "pie pie pie pie pie pie"
+      "pie pie pie pie pie pie"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "beef beef beef beef beef beef"
+      "fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken"
+      "fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken fried-chicken"
+      "kebab kebab kebab kebab kebab kebab"
+      "kebab kebab kebab kebab kebab kebab"
+      "kebab kebab kebab kebab kebab kebab"
+      "kebab kebab kebab kebab kebab kebab"
+    ;
+  }
+
+  .chefs .chefs-cards .chef-card {
+    width: 100%;
+  }
+
+  .chefs .chefs-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: start;
+  }
+
+  iframe {
+    aspect-ratio: 11/7;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+
+  .address {
+    width: 50px;
+    height: 50px;
+  }
+
+  .seperate1 {
+    width: 100%;
+  }
+
+  .seperate2 {
+    width: 100%;
+  }
+
+  .group2 {
+    flex-flow: column wrap;
+    gap: 15px;
+  }
+
+  .footer .footer-content {
+    flex-flow: row wrap;
+  }
+
+  .footer .footer-content .left {
+    width: 100%;
+    order: 1;
+  }
+
+  .footer .footer-content .right {
+    width: 100%;
+    order: 3;
+  }
+
+  .footer .footer-content .middle {
+    width: 100%;
+    order: 2;
+  }
+
+  .footer {
+    background-size: cover;
+  }
 }
 
-/* Medium devices (>= 768px and <= 991.98px) */
 @media all and (768px <=width <=991.98px) {
 
-  /* Styles for tablets */
   .home .container {
     flex-direction: column-reverse;
     text-align: center;
@@ -56,6 +336,8 @@
 
   .container {
     width: 70%;
+    margin-inline: auto;
+
   }
 
   .home .home-content {
@@ -102,12 +384,12 @@
   }
 
   .contact-info {
-    width: 48.9%;
+    width: 48.3%;
   }
 
-   .address {
-    width: 70px;
-    height: 55px;
+  .address {
+    width: 50px;
+    height: 50px;
   }
 
   .seperate1 {
@@ -147,18 +429,45 @@
   }
 }
 
-
-/* Large devices (>= 992px and <= 1199.98px) */
 @media all and (992px <=width <=1199.98px) {
-  /* Styles for small desktops */
+  .container {
+    width: 95%;
+  }
+
+  iframe {
+    aspect-ratio: 11/4;
+  }
+
+  .footer .footer-content {
+    flex-flow: row wrap;
+  }
+
+  .footer .footer-content .left {
+    width: 48%;
+    order: 1;
+  }
+
+  .footer .footer-content .right {
+    width: 48%;
+    order: 2;
+  }
+
+  .footer .footer-content .middle {
+    width: 100%;
+    order: 3;
+  }
+
+  .footer .footer-content .middle .subscribe button {
+    width: 13%;
+  }
+
+  .footer {
+    background-size: cover;
+  }
 }
 
-/* Extra large devices (>= 1200px and <= 1399.98px) */
-@media all and (1200px <=width <=1399.98px) {
-  /* Styles for desktops */
-}
-
-/* Extra extra large devices (>= 1400px) */
 @media all and (width >=1400px) {
-  /* Styles for large desktops */
+  .container {
+    width: 65%;
+  }
 }
